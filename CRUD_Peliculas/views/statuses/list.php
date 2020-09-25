@@ -10,7 +10,7 @@
 		</div>
 
 		<section class="col-md-12 flex-nowrap table-responsive">
-			<table class="table table-striped table-hover">
+			<table class="table table-dark table-hover">
 				<thead>
 					<tr>
 						<th>Id</th>
@@ -26,8 +26,8 @@
 							<td><?php echo $status->name ?></td>
 							<td><?php echo $status->type ?></td>
 							<td>
-								<a href="?controller=status&method=edit&id=<?php echo $status->id?>" class="btn btn-warning" title="Editar estado">Editar</a>
-								<a href="?controller=status&method=delete&id=<?php echo $status->id?>" class="btn btn-danger" title="Eliminar estado">Eliminar</a>
+								<a href="?controller=status&method=edit&id=<?php echo $status->id?>" class="btn btn-outline-warning" title="Editar estado">Editar</a>
+								<a href="?controller=status&method=delete&id=<?php echo $status->id?>" class="btn btn-outline-danger" title="Eliminar estado">Eliminar</a>
 							</td>
 						</tr>
 					<?php endforeach ?>

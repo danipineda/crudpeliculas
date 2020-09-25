@@ -6,11 +6,11 @@
 
 		<div class="col-md-12 m-4 d-flex justify-content-between">
 			<h2>Lista de Categorías</h2>
-			<a href="?controller=category&method=add" class="btn btn-primary">Agregar</a>
+			<a href="?controller=category&method=add" class="btn btn-outline-primary">Agregar</a>
 		</div>
 
 		<section class="col-md-12 flex-nowrap table-responsive">
-			<table class="table table-striped table-hover">
+			<table class="table table-dark table-hover">
 				<thead>
 					<tr>
 						<th>Id</th>
@@ -26,8 +26,8 @@
 							<td><?php echo $category->name ?></td>
 							<td><?php echo $category->status ?></td>
 							<td>
-								<a href="?controller=category&method=edit&id=<?php echo $category->id?>" class="btn btn-warning" title="Editar categoria">Editar</a>
-								<a href=?controller=category&method=delete&id=<?php echo $category->id?> class="btn btn-danger" title="Eliminar categoria">Eliminar</a>
+								<a href="?controller=category&method=edit&id=<?php echo $category->id?>" class="btn btn-outline-warning" title="Editar categoria">Editar</a>
+								<a href=?controller=category&method=delete&id=<?php echo $category->id?> class="btn btn-outline-danger" title="Eliminar categoria">Eliminar</a>
 							</td>
 						</tr>
 					<?php endforeach ?>

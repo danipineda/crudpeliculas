@@ -6,11 +6,11 @@
 
 		<div class="col-md-12 m-4 d-flex justify-content-between">
 			<h2>Lista de Roles</h2>
-			<a href="?controller=rol&method=add" class="btn btn-primary">Agregar</a>
+			<a href="?controller=rol&method=add" class="btn btn-outline-primary">Agregar</a>
 		</div>
 
 		<section class="col-md-12 flex-nowrap table-responsive">
-			<table class="table table-striped table-hover">
+			<table class="table table-dark table-hover">
 				<thead>
 					<tr>
 						<th>Id</th>
@@ -26,8 +26,8 @@
 							<td><?php echo $rol->name ?></td>
 							<td><?php echo $rol->status ?></td>
 							<td>
-								<a href="?controller=rol&method=edit&id=<?php echo $rol->id?>" class="btn btn-warning" title="Editar Rol">Editar</a>
-								<a href="?controller=rol&method=delete&id=<?php echo $rol->id?>" class="btn btn-danger" title="Eliminar Rol">Eliminar</a>
+								<a href="?controller=rol&method=edit&id=<?php echo $rol->id?>" class="btn btn-outline-warning" title="Editar Rol">Editar</a>
+								<a href="?controller=rol&method=delete&id=<?php echo $rol->id?>" class="btn btn-outline-danger" title="Eliminar Rol">Eliminar</a>
 							</td>
 						</tr>
 					<?php endforeach ?>

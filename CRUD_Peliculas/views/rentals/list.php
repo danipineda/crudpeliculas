@@ -6,11 +6,11 @@
 
 		<div class="col-md-12 m-4 d-flex justify-content-between">
 			<h2>Lista de rentas</h2>
-			<a href="?controller=rental&method=add" class="btn btn-primary">Agregar</a>
+			<a href="?controller=rental&method=add" class="btn btn-outline-primary">Agregar</a>
 		</div>
 
 		<section class="col-md-12 flex-nowrap table-responsive">
-			<table class="table table-striped table-hover">
+			<table class="table table-dark table-hover">
 				<thead>
 					<tr>
 						<th>Id</th>
@@ -32,9 +32,9 @@
 							<td><?php echo $rental->usuario ?></td>
 							<td><?php echo $rental->status ?></td>
 							<td>
-								<a href="?controller=rental&method=edit&id=<?php echo $rental->id?>" class="btn btn-warning" title="Editar Renta">Editar</a>
-								<a href="?controller=rental&method=delete&id=<?php echo $rental->id?>" class="btn btn-danger" title="Eliminar Renta">Eliminar</a>
-								<a href="?controller=rental&method=seeMovies&id=<?php echo $rental->id?>" class="btn btn-success" >Ver películas</a>
+								<a href="?controller=rental&method=edit&id=<?php echo $rental->id?>" class="btn btn-outline-warning" title="Editar Renta">Editar</a>
+								<a href="?controller=rental&method=delete&id=<?php echo $rental->id?>" class="btn btn-outline-danger" title="Eliminar Renta">Eliminar</a>
+								<a href="?controller=rental&method=seeMovies&id=<?php echo $rental->id?>" class="btn btn-outline-success" >Ver películas</a>
 							</td>
 						</tr>
 						

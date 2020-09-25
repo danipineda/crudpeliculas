@@ -5,7 +5,7 @@
 		</div>
 
 		<section class="col-md-16 flex-nowrap table-responsive">
-			<table class="table table-striped table-hover">
+			<table class="table table-dark table-hover">
 				<thead>
 					<tr>
 						<th class="text-center">Id de categoría</th>

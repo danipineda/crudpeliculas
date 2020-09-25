@@ -6,11 +6,11 @@
 
 		<div class="col-md-12 m-4 d-flex justify-content-between">
 			<h2>Lista de Usuarios</h2>
-			<a href="?controller=user&method=new" class="btn btn-primary">Agregar</a>
+			<a href="?controller=user&method=new" class="btn btn-outline-primary">Agregar</a>
 		</div>
 
 		<section class="col-md-12 flex-nowrap table-responsive">
-			<table class="table table-striped table-hover">
+			<table class="table table-dark table-hover">
 				<thead>
 					<tr>
 						<th>Id</th>
@@ -30,9 +30,9 @@
 							<td><?php echo $user->status ?></td>
 							<td><?php echo $user->role ?></td>
 							<td>
-								<a href="?controller=user&method=edit&id=<?php echo $user->id ?>" class="btn btn-warning">Editar</a>
+								<a href="?controller=user&method=edit&id=<?php echo $user->id ?>" class="btn btn-outline-warning">Editar</a>
 				      	
-				      	<a href="?controller=user&method=delete&id=<?php echo $user->id ?>" class="btn btn-danger">Eliminar</a>	
+				      	<a href="?controller=user&method=delete&id=<?php echo $user->id ?>" class="btn btn-outline-danger">Eliminar</a>	
 							</td>
 						</tr>
 					<?php endforeach ?>
